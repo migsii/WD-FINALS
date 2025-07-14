@@ -1,35 +1,25 @@
-<a name="readme-top">
+<!-- README.md -->
 
-<br/>
+<a name="readme-top"></a>
 
 <br />
+
 <div align="center">
-  <a href="https://github.com/zyx-0314/">
-  <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+  <a href="https://github.com/migsii/">
+    <img src="./assets/img/photo.png" alt="anna" width="200" height="200">
   </a>
-<!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">Finals</h3>
 </div>
-<!-- TODO: Make a short description -->
+
 <div align="center">
-  Short Description. (Optional)
 </div>
 
 <br />
 
-<!-- TODO: Change the zyx-0314 into your github username  -->
-<!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
-
-[![wakatime](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8.svg)](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8)
+![](https://visit-counter.vercel.app/counter.png?page=migsii/WD-FINALS)
 
 ---
 
-<br />
-<br />
-
-<!-- TODO: If you want to add more layers for your readme -->
 <details>
   <summary>Table of Contents</summary>
   <ol>
@@ -45,7 +35,7 @@
       </ol>
     </li>
     <li>
-      <a href="#rule,-practices-and-principles">Rules, Practices and Principles</a>
+      <a href="#rules-practices-and-principles">Rules, Practices and Principles</a>
     </li>
     <li>
       <a href="#resources">Resources</a>
@@ -57,66 +47,64 @@
 
 ## Overview
 
-<!-- TODO: To be changed -->
-<!-- The following are just sample -->
-Description of the project in details.
+This project is a cyberpunk-themed personal website consisting of five main sections: Landing Page, About Me, Hobbies & Skills, Involvement, and Gallery. Each page features its own HTML and CSS styling, with animated and glitch-inspired visuals created entirely through CSS.
 
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+The site is meant to showcase a student’s background, interests, and accomplishments using a futuristic aesthetic.
 
 ### Key Components
-<!-- TODO: List of Key Components -->
-<!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+
+- Multi-page static website
+- Individual CSS per page
+- Animated glitch effects and scanlines using pure CSS
+- Responsive layout with navigation on each page
 
 ### Technology
-<!-- TODO: List of Technology Used -->
+
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
+
+---
 
 ## Rules, Practices and Principles
-1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
-2. Do not rename any .html files; always use `index.html` as the filename.
-3. Place Files in their respective folders.
-4. All file naming are in camel case.
-   - Camel case is naming format where there is no white space in separation of each words, the first word is in all lower case while the succeding words first letter are in upper followed by lower cased letters.
-   - ex.: buttonAnimatedStyle.css
-5. Use only `External CSS`.
-6. Renaming of Pages folder names are a must, and relates to what it is doing or data it holding.
-7. File Structure to follow below.
+
+1. Always prefix your folder with `WD-` followed by the project name (e.g., `WD-CyberpunkPortfolio`).
+2. The main HTML file for each section must be named `index.html`.
+3. Organize page files within their respective folders under `/pages/`.
+4. File naming should follow **camelCase** format.
+   - Example: `glitchStyle.css`, `starLinesImage.webp`
+5. Use **external CSS only** (no internal or inline CSS).
+6. Folder names must clearly reflect their purpose or content.
 
 ```
-WD-ProjectName
-└─ assets
-|   └─ css
-|   |   └─ style.css
-|   └─ img
-|   |   └─ fileWith.jpeg/.jpg/.webp/.png
-|   └─ js
-|       └─ script.js
-└─ pages
-|  └─ pageName
-|     └─ assets
-|     |  └─ css
-|     |  |  └─ style.css
-|     |  └─ img
-|     |  |  └─ fileWith.jpeg/.jpg/.webp/.png
-|     |  └─ js
-|     |     └─ script.js
-|     └─ index.html
-└─ index.html
-└─ readme.md
+WD-FINALS
+├── index.html
+├── assets
+│   └── img
+│       └──photo.png
+│       └──photo1.png
+├── pages
+│   ├── page1
+│   │   ├── index.html
+│   │   └── style.css
+│   ├── page2
+│   │   ├── index.html
+│   │   └── style.css
+│   ├── page3
+│   │   ├── index.html
+│   │   └── style.css
+│   └── page4
+│       ├── index.html
+│       └── style.css
+└── readme.md
 ```
+
+---
 
 ## Resources
 
-<!-- TODO: Add References -->
-| Title | Purpose | Link |
-|-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Title                      | Purpose                                    | Link                                                                                  |
+| -------------------------- | ------------------------------------------ | ------------------------------------------------------------------------------------- |
+| CSS Glitch Text Effect     | For generating glitchy text animations     | [css-tricks.com/glitch-effect](https://css-tricks.com/glitch-effect-text-images-svg/) |
+| Scanline Overlay Technique | To add a retro scanline background effect  | [codepen.io scanline demo](https://codepen.io/curiosdev/pen/YzXQYmX)                  |
+| Google Fonts – Orbitron    | Futuristic font used for cyberpunk styling | [fonts.google.com/specimen/Orbitron](https://fonts.google.com/specimen/Orbitron)      |
+| Neon Color Palettes        | Pick neon-themed color schemes             | [coolors.co](https://coolors.co/)                                                     |
